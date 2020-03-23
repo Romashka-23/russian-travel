@@ -1,0 +1,13 @@
+.video__duration{
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+    position: relative;
+    left: 30px;
+    top: 124px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}

@@ -1,0 +1,12 @@
+.video__title{
+    max-width: 322px;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 1.08;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    left: 30px;
+    top: 145px;
+    margin: 0;
+}

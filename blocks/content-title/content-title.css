@@ -1,0 +1,11 @@
+.content-title{
+    display: grid;
+    max-width: 55vw;
+    font-weight: bold;
+    font-size: 4.5rem;
+    line-height: 1.08;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    
+}

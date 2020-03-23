@@ -1,0 +1,10 @@
+.lead__title{
+    max-width: 55vw;
+    font-size: 6rem;
+    line-height: 0.9865;
+    text-align: center;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    justify-self: center;
+    align-self: center;
+}

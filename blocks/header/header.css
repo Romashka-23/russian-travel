@@ -1,0 +1,10 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang/_ru/header__lang_ru.css);
+@import url(./__lang/_en/header__lang_en.css);
+.header{
+    max-width: 82vw;
+    display: grid;
+    grid-template-columns: 11em 1fr 2.5rem 2.5rem;
+    padding-top: 1.9rem;
+    margin: 0 auto;
+}

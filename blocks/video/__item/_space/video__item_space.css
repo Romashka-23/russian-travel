@@ -1,0 +1,5 @@
+.video__item_space{
+    background-image: url(../../images/space.png);
+    border-radius: 5px;
+    background-size: cover;
+    }

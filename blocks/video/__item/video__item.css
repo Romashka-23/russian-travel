@@ -1,0 +1,10 @@
+.video__item{
+    width: 40vw;
+    height: 323px;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    border: 0;
+}
+.video__item:last-of-type{
+    margin: 0;
+}
