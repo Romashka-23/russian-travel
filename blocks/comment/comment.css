@@ -2,5 +2,9 @@
 @import url(./__quote/comment__quote.css);
 @import url(./__author/comment__author.css);
 .comment{
-	width: 27.4vw;
+	width: 26.5vw;
+	margin-right: 1.3vw;
+}
+.comment:last-of-type{
+	margin-right: 0;
 }

@@ -1,0 +1,12 @@
+.header__lang{
+	grid-column-start: 4;
+    font-size: 1.5rem;
+    line-height: 0.95;
+    color: #FFFFFF;
+    text-decoration: none;
+    align-self: center;
+    transition: 0.5s ease;
+}
+.header__lang:hover{
+	opacity: .7;
+}	

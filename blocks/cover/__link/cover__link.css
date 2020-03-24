@@ -1,0 +1,18 @@
+.cover__link{
+    width: 82.2vw;
+    height: 594px;
+    text-decoration: none;
+    color: #FFFDFD;
+    margin: auto;
+    background-image: url(../images/cover.png);
+    background-size: cover;
+    position: relative;
+    /* display: flex;  
+    flex-direction: column;     */
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    transition: 0.5s ease;
+}
+.cover__link:hover{
+    opacity: .7;
+}

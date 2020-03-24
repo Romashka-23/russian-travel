@@ -1,4 +1,5 @@
 @import url(./__logo/header__logo.css);
+@import url(./__lang/header__lang.css);
 @import url(./__lang/_ru/header__lang_ru.css);
 @import url(./__lang/_en/header__lang_en.css);
 .header{

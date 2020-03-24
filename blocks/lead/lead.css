@@ -7,6 +7,5 @@
     display: grid;
     margin: 0 auto;
     position: relative;
-    /* justify-items: center; */
     overflow: hidden;
 }
