@@ -6,5 +6,10 @@
 @import url(./__item/video__item.css);
 @import url(./__item/_kamchatka/video__item_kamchatka.css);
 @import url(./__item/_space/video__item_space.css);
+@import url(./__overlay/video__overlay.css);
+.video{
+    margin-bottom: 100px;
+}
+
 
 

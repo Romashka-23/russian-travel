@@ -6,7 +6,7 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     justify-self: start;
-    align-self: center;
+    align-self: end;
     transition: 0.5s ease;
 }
 .place__url:hover{

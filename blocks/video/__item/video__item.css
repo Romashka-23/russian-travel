@@ -1,14 +1,10 @@
 .video__item{
-    width: 40vw;
+    width: 50%;
     height: 323px;
     text-decoration: none;
     margin: 0 20px 0 0;
     border: 0;
-    transition: 0.5s ease;
 }
 .video__item:last-of-type{
     margin: 0;
-}
-.video__item:hover{
-	opacity: .7;
 }

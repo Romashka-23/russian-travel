@@ -7,4 +7,5 @@
     margin: 0 auto 48px;
     justify-self: center;
     align-self: end;
+    z-index: 1;
 }

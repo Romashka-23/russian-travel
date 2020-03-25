@@ -1,9 +1,17 @@
 @import url(./__link/cover__link.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
 .cover{
     display: flex;
     position: relative;
-    width: 82.2vw;
-    margin: auto;
+    max-width: 82.2vw;
+    margin: 100px auto 160px;
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 1280px) {
+    .cover{
+        max-width: 92.5vw;
+    }
 }
