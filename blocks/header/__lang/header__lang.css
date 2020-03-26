@@ -10,3 +10,9 @@
 .header__lang:hover{
 	opacity: .7;
 }	
+@media screen and (max-width: 480px) {
+    .header__lang {
+        font-size: 1.125rem;
+        line-height: 0.96;
+    }
+}

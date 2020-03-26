@@ -1,0 +1,13 @@
+.intro__elem{
+    list-style-type: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8125rem;
+    line-height: 1.53;
+}
+@media screen and (max-width: 480px) {
+    .intro__elem {
+        font-size: 0.75rem;
+        line-height: 1.58;
+    }
+}

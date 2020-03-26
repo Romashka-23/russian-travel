@@ -3,12 +3,8 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
 .cover{
-    display: flex;
-    position: relative;
     max-width: 82.2vw;
     margin: 100px auto 160px;
-    background-size: cover;
-    background-position: center;
 }
 @media (max-width: 1280px) {
     .cover{

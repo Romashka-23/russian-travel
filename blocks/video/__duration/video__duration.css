@@ -12,3 +12,13 @@
     margin-block-end: 0;
     z-index: 1;
 }
+@media screen and (max-width: 1279px) {
+    .video__duration{
+        top: 84px;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .video__duration{
+        top: 63px;
+    }
+  }

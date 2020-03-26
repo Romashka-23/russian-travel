@@ -5,6 +5,7 @@
     position: relative;
     transition: 0.5s ease;
 }
-.video__item_kamchatka:hover{
-	opacity: .7;
+.video__item_kamchatka:hover .video__overlay{
+	background-color: rgba(0, 0, 0, .7);
+    transition: 0.5s ease;
 }

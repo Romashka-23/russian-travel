@@ -1,5 +1,5 @@
 .video__subtitle{
-    font-weight: bold;
+    font-weight: normal;
     font-size: 0.875rem;
     line-height: 1.07;
     color: #FFFFFF;
@@ -10,3 +10,13 @@
     margin: 0;
     z-index: 1;
 }
+@media screen and (max-width: 1279px) {
+    .video__subtitle{
+        top: 117px;
+    }
+  }
+@media screen and (max-width: 1023px) {
+    .video__subtitle{
+        top: 92px;        
+    }
+  }

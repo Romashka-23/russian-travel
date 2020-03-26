@@ -1,7 +1,7 @@
 @import url(./__title/intro__title.css);
 @import url(./__content/intro__content.css);
 @import url(./__list/intro__list.css);
-@import url(./__list/_elem/intro__list_elem.css);
+@import url(./__elem/intro__elem.css);
 .intro{
     max-width: 68vw;
     display: grid;

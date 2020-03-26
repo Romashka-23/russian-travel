@@ -10,3 +10,14 @@
     margin-block-start: 0;
     margin-block-end: 0;
 }
+@media (max-width: 900px) {
+    .place__url-heading{
+        font-size: 0.75rem;
+        line-height: 1.6;
+    }
+}
+@media (max-width: 700px) {
+    .place__url-heading{
+        display: none;
+    }
+}

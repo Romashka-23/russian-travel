@@ -15,3 +15,9 @@
         max-width: 92.5vw;
     }
 }
+@media (max-width: 767px) {
+    .footer{
+    	grid-template-columns: 1fr;
+    	grid-template-rows: 6fr 1fr;
+    }
+}
