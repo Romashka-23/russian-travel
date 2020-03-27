@@ -11,16 +11,23 @@
     z-index: 1;
 }
 
-  @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .cover__title {
-      max-width: 720px;
-      }
-  }
+        max-width: 720px;
+     }
+}
   
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .cover__title {
-      font-size: 2rem;
-      line-height: 2.1875rem;
-      max-width: calc(100% - 16px * 2);
+        width: 343px;
+        font-size: 2rem;
+        line-height: 2.1875rem;      
     }
-  }
+}
+@media screen and (max-width: 374px) {
+    .cover__title {
+        width: 288px;
+        font-size: 2rem;
+        line-height: 2.1875rem;      
+    }
+}

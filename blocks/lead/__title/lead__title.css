@@ -9,8 +9,9 @@
     align-self: center;
     margin: 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .lead__title {
+        max-width: 288px;
         font-size: 2.5rem;
         line-height: 1.1;
     }

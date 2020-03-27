@@ -16,11 +16,12 @@
         top: 110px;
     }
   }
-  @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .video__title{
         font-size: 1.5rem;
         line-height: 1.08;
-        top: 90px; 
+        left: 24px;
+        top: 75px; 
         max-width: 80%;
     }
   }

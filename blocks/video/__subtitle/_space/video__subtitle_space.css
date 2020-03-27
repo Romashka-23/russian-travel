@@ -1,0 +1,6 @@
+@media screen and (max-width: 1023px) {
+    .video__subtitle_space{
+        left: 24px;
+        top: 60px;        
+    }
+}

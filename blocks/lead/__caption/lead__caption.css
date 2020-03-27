@@ -1,14 +1,24 @@
 .lead__caption{
     justify-self: start;
     align-self: start;
-    margin: 9px 0 0 0;
+    margin: 11px 0 0 0;
     font-size: 0.625rem;
     line-height: 1.2rem;
     text-transform: uppercase;
 }    
-@media (max-width: 850px) {
+@media (max-width: 1279px) {
     .lead__caption{
-        margin: 9px 0 0 24px;
+        margin: 16px 0 0 0px;
+    }
+}
+@media (max-width: 1023px) {
+    .lead__caption{
+        margin: 16px 0 0 28px;
+    }
+}
+@media (max-width: 767px) {
+    .lead__caption{
+        margin: 8px 0 0 16px;
     }
 }
 

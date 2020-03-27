@@ -3,8 +3,23 @@
     max-width: 82.2vw;
 	margin: 0 auto;
 }
-@media (max-width: 1280px) {
+@media (max-width: 1439px) {
     .comments{
         max-width: 92.5vw;
+    }
+}
+@media (max-width: 1023px) {
+    .comments{
+        max-width: 382px;
+    }
+}
+@media (max-width: 767px) {
+    .comments{
+        max-width: 343px;
+    }
+}
+@media (max-width: 374px) {
+    .comments{
+        max-width: 288px;
     }
 }

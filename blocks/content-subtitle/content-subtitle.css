@@ -1,7 +1,20 @@
 .content-subtitle{
-    max-width: 44vw; 
+    max-width: 640px; 
     font-size: 1.5rem;
     line-height: 1.46;
     text-align: center;
     margin: 48px auto 60px;
+}
+@media (max-width: 767px) {
+    .content-subtitle{
+        max-width: 343px;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.43;
+    }
+}
+@media (max-width: 374px) {
+    .content-subtitle{
+        max-width: 288px;  
+    }
 }

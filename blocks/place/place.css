@@ -8,27 +8,31 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 4rem auto 1fr;
     grid-gap: 40px 40px;
-    max-width: 68vw;
+    max-width: calc(100vw - 228px * 2);
     margin: 50px auto;
     position: relative;
 }
-@media (max-width: 1280px) {
+.place:last-of-type .place__paragraph:last-of-type{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+@media (max-width: 1439px) {
     .place{
-        max-width: 76.8vw;
+        max-width: calc(100vw - 148px * 2);
     }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     .place{
         max-width: calc(100vw - 48px * 2);
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 1023px) {
     .place{
         max-width: calc(100vw - 24px * 2);
         grid-gap: 28px 28px;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .place{
         max-width: 100vw;
         display: flex;

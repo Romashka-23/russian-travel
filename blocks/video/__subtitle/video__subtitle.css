@@ -14,9 +14,10 @@
     .video__subtitle{
         top: 117px;
     }
-  }
+}
 @media screen and (max-width: 1023px) {
     .video__subtitle{
-        top: 92px;        
+        left: 24px;
+        top: 85px;        
     }
-  }
+}

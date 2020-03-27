@@ -12,13 +12,13 @@
 .place__url:hover{
 	opacity: .7;
 }
-@media (max-width: 900px) {
+@media (max-width: 1023px) {
     .place__url{
         font-size: 1.125rem;
         line-height: 1.66;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .place__url{
         display: none;
     }

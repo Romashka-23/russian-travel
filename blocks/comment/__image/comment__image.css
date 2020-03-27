@@ -4,3 +4,11 @@
     height: 98px;
     order: 1;
 }
+@media (max-width: 1023px) {
+    .comment__image{
+        margin-top: 47px;
+    }
+    .comment__image:first-of-type{
+        margin-top: 0;
+    }
+}
