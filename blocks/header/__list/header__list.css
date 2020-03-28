@@ -1,0 +1,6 @@
+.header__list{
+    margin-left: 0;
+    padding-left: 0;
+    justify-self: end;
+    display: flex;
+}

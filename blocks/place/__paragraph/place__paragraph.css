@@ -8,18 +8,9 @@
     margin-block-start: 0;
     margin-block-end: 0;
 }
-.place__paragraph:last-of-type{
-    grid-row: 4/5;
-    grid-column: 2/3;
-}
 @media (max-width: 1023px) {
     .place__paragrph{
         font-size: 1rem;
         line-height: 1.68;
-    }
-}
-@media (max-width: 767px) {
-    .place__paragraph{
-        margin: 24px 16px;
     }
 }

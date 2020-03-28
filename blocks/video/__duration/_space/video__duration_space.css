@@ -1,5 +1,10 @@
 @media screen and (max-width: 1023px) {
     .video__duration_space{
-        top: 40px;
+        top: 82px;
+    }    
+}
+@media (max-width: 374px) {
+    .video__duration_space{
+        top: 80px;
     }    
 }

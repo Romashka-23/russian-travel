@@ -5,24 +5,34 @@
     line-height: 1.08;
     color: #FFFFFF;
     text-decoration: none;
-    position: relative;
+    position: absolute;
     left: 30px;
-    top: 145px;
+    bottom: 61px;
     margin: 0;
     z-index: 1;
 }
-@media screen and (max-width: 1279px) {
+@media (max-width: 1279px) {
     .video__title{
-        top: 110px;
+        bottom: 66px;
     }
-  }
-@media screen and (max-width: 1023px) {
+}
+@media (max-width: 1023px) {
     .video__title{
         font-size: 1.5rem;
         line-height: 1.08;
         left: 24px;
-        top: 75px; 
+        bottom: 52px; 
         max-width: 80%;
+        margin: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding: 0;
     }
-  }
+}
+@media (max-width: 374px) {
+    .video__title{
+        bottom: 36px;
+        left: 16px;
+    }    
+}
   

@@ -1,0 +1,12 @@
+.place__elem{
+    list-style-type: none;
+    margin-bottom: 36px;
+}
+.place__elem:last-of-type{
+    margin-bottom: 0;
+}
+@media (max-width: 1279px){
+    .place__elem{
+        margin-bottom: 24px;
+    }
+}

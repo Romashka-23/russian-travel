@@ -1,0 +1,13 @@
+.place__list{
+    margin: 0;
+    padding: 0;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    justify-self: start;
+    align-self: start;
+}
+@media (max-width: 767px) {
+    .place__paragraph{
+        margin: 24px 16px;
+    }
+}
