@@ -1,4 +1,5 @@
 @import url(./__title/place__title.css);
+@import url(./__content/place__content.css);
 @import url(./__list/place__list.css);
 @import url(./__elem/place__elem.css);
 @import url(./__url-heading/place__url-heading.css);
@@ -9,34 +10,32 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 4rem auto;
-    grid-gap: 40px 40px;
-    max-width: calc(100vw - 228px * 2);
+    grid-gap: 60px 40px;
+    max-width: 984px;
+    width: calc(100vw - 228px * 2);
     margin: 50px auto;
     position: relative;
 }
-.place:last-of-type .place__paragraph:last-of-type{
-    grid-row: 3/4;
-    grid-column: 2/3;
-}
 @media (max-width: 1439px) {
     .place{
-        max-width: calc(100vw - 148px * 2);
+        width: calc(100vw - 148px * 2);
     }
 }
 @media (max-width: 1279px) {
     .place{
-        max-width: calc(100vw - 48px * 2);
+        width: calc(100vw - 48px * 2);
+        grid-gap: 40px 32px;
     }
 }
 @media (max-width: 1023px) {
     .place{
-        max-width: calc(100vw - 24px * 2);
-        grid-gap: 28px 28px;
+        width: calc(100vw - 24px * 2);
+        grid-gap: 40px 28px;
     }
 }
 @media (max-width: 767px) {
     .place{
-        max-width: 100vw;
+        width: 100vw;
         display: flex;
         flex-direction: column;
     }

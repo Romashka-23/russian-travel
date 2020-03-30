@@ -1,6 +1,7 @@
 .header__lang{
 	font-size: 1.5rem;
     line-height: 0.95;
+    margin-left: 18px;
     color: #FFFFFF;
     text-decoration: none;
     transition: 0.5s ease;

@@ -7,9 +7,5 @@
     .comments__container{
         flex-direction: column;
         align-items: center;
-        margin: 0 auto 0;	
-    }
-    .comments__container:first-child{
-        margin: 0;
     }
 }

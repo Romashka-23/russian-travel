@@ -1,6 +1,6 @@
 .video__title{
     max-width: 322px;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 2.25rem;
     line-height: 1.08;
     color: #FFFFFF;
@@ -19,7 +19,6 @@
 @media (max-width: 1023px) {
     .video__title{
         font-size: 1.5rem;
-        line-height: 1.08;
         left: 24px;
         bottom: 52px; 
         max-width: 80%;

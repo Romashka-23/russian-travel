@@ -3,7 +3,8 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
 .lead{
-    max-width: calc(100vw - 228px * 2);
+    max-width: 984px;
+    width: calc(100vw - 228px * 2);
     display: grid;
     margin: 60px auto 80px;
     position: relative;
@@ -11,17 +12,17 @@
 }
 @media (max-width: 1439px) {
     .lead{
-        max-width: calc(100vw - 148px * 2);
+        width: calc(100vw - 148px * 2);
     }
 }
 @media (max-width: 1279px) {
     .lead{
-        max-width: calc(100vw - 48px * 2);
+        width: calc(100vw - 48px * 2);
     }
 }
 @media (max-width: 1023px) {
     .lead{
-        max-width: 100vw;
+        width: 100vw;
     }
 }
 @media (max-width: 767px) {

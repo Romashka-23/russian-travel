@@ -10,13 +10,11 @@
     align-self: center;
     z-index: 1;
 }
-
 @media screen and (max-width: 1023px) {
     .cover__title {
         max-width: 720px;
      }
 }
-  
 @media screen and (max-width: 767px) {
     .cover__title {
         width: 343px;
